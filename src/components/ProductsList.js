@@ -32,12 +32,12 @@ function ProductsList() {
 
   return (
     <>
-      <h2 className="text-center">Our Prudcts</h2>
+      <h2 className="text-center">Our Products</h2>
       <div className="container">
         {categories.map((cat) => {
           return (
             <button
-              className="btn btn-info"
+              className="btn btn-info mx-2"
               key={cat}
               onClick={() => getProductByCategory(cat)}
             >
